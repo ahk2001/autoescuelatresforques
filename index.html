@@ -896,7 +896,7 @@
       height: 100%;
       object-fit: cover;
       object-position: center 22%;
-      filter: brightness(0.42) contrast(1.06);
+      filter: brightness(0.76) contrast(1.06);
     }
 
     .prof-bg-vignette {
@@ -906,9 +906,9 @@
       pointer-events: none;
       background: linear-gradient(
         180deg,
-        rgba(7, 8, 12, 0.88) 0%,
-        rgba(7, 8, 12, 0.45) 45%,
-        rgba(7, 8, 12, 0.90) 100%
+        rgba(7, 8, 12, 0.72) 0%,
+        rgba(7, 8, 12, 0.18) 45%,
+        rgba(7, 8, 12, 0.78) 100%
       );
     }
 
@@ -928,24 +928,24 @@
     }
 
     .prof-editorial-card {
-      background: linear-gradient(135deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.03) 100%), rgba(13, 15, 21, 0.48);
-      backdrop-filter: blur(22px) saturate(160%);
-      -webkit-backdrop-filter: blur(22px) saturate(160%);
-      border: 1px solid rgba(255, 255, 255, 0.18);
+      background: linear-gradient(135deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0.03) 100%), rgba(13, 15, 21, 0.34);
+      backdrop-filter: blur(14px) saturate(150%);
+      -webkit-backdrop-filter: blur(14px) saturate(150%);
+      border: 1px solid rgba(255, 255, 255, 0.22);
       border-top: 2px solid var(--tf-red);
       border-radius: 18px;
       padding: 1.85rem;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.45);
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
       transition: transform 0.3s var(--ease-editorial), border-color 0.3s ease, background 0.3s ease;
     }
 
     .prof-editorial-card:hover {
       transform: translateY(-5px);
       border-color: var(--tf-red-glow);
-      background: linear-gradient(135deg, rgba(255, 255, 255, 0.14) 0%, rgba(255, 255, 255, 0.05) 100%), rgba(13, 15, 21, 0.58);
+      background: linear-gradient(135deg, rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0.05) 100%), rgba(13, 15, 21, 0.44);
     }
 
     .prof-card-top {
@@ -1076,10 +1076,10 @@
     @media (min-width: 1024px) { .team-family-grid { grid-template-columns: repeat(4, 1fr); } }
 
     .team-member-card {
-      background: rgba(13, 15, 21, 0.46);
-      backdrop-filter: blur(20px) saturate(150%);
-      -webkit-backdrop-filter: blur(20px) saturate(150%);
-      border: 1px solid rgba(255, 255, 255, 0.16);
+      background: rgba(13, 15, 21, 0.36);
+      backdrop-filter: blur(14px) saturate(150%);
+      -webkit-backdrop-filter: blur(14px) saturate(150%);
+      border: 1px solid rgba(255, 255, 255, 0.20);
       border-radius: 16px;
       padding: 1.45rem;
       display: flex;
