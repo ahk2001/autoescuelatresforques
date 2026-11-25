@@ -1096,36 +1096,6 @@
       line-height: 1.55;
     }
 
-    @media (max-width: 768px) {
-      .pillars-editorial-grid,
-      .prof-editorial-grid,
-      .team-family-grid {
-        display: flex;
-        flex-wrap: nowrap;
-        align-items: stretch;
-        overflow-x: auto;
-        scroll-snap-type: x mandatory;
-        -webkit-overflow-scrolling: touch;
-        scrollbar-width: none;
-        gap: 1rem;
-        padding: 0.25rem 0.25rem 0.75rem;
-      }
-      .pillars-editorial-grid::-webkit-scrollbar,
-      .prof-editorial-grid::-webkit-scrollbar,
-      .team-family-grid::-webkit-scrollbar { display: none; }
-      .pillars-editorial-grid > .pillar-editorial-card,
-      .prof-editorial-grid > .prof-editorial-card {
-        flex: 0 0 86%;
-        max-width: 86%;
-        scroll-snap-align: start;
-      }
-      .team-family-grid > .team-member-card {
-        flex: 0 0 82%;
-        max-width: 82%;
-        scroll-snap-align: start;
-      }
-    }
-
     /* ==========================================================================
        8. GALERÍA REAL (PISTA PROPIA Y ALUMNOS APROBADOS)
        ========================================================================== */
